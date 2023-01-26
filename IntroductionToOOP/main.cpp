@@ -35,7 +35,7 @@ public:
 	}
 };
 
-std::istream& 
+
 double distance (Point A, Point B)
 {
 	double x_distance = A.get_x() - B.get_x();
