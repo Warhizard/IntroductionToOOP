@@ -43,8 +43,7 @@ double distance (Point A, Point B)
 
 void main() 
 {
-	setlocale(LC_ALL, "RU");
-	cout << "Hello OOP" << endl;
+	setlocale(LC_ALL, "");
 #ifdef STRUCT_POINT
 	Point A;
 	A.x = 2;
