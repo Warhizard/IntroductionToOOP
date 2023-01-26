@@ -53,6 +53,7 @@ void main()
 	//cout << pA->x << "\t" << pA->y << endl;
 #endif 
 #ifdef DISTANCE_CHECK
+	setlocale(LC_ALL, "ru");
 	Point A;
 	A.set_x(2);
 	A.set_y(3);
