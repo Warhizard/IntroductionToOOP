@@ -1,5 +1,7 @@
 #include <iostream>
-using namespace std;
+using std::endl;
+using std::cin;
+using std::cout;
 
 //#define STRUCT_POINT
 #define DISTANCE_CHECK
@@ -33,6 +35,7 @@ public:
 	}
 };
 
+std::istream& 
 double distance (Point A, Point B)
 {
 	double x_distance = A.get_x() - B.get_x();
